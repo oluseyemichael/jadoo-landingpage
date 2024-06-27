@@ -17,44 +17,50 @@
                 <button id="hamburger-button" class="text-3xl md:hidden cursor-pointer">
                     &#9776;
                 </button>
-                <nav class="hidden md:block space-x-8 text-xl" aria-label="main">
+                <nav class="hidden md:block space-x-8 text-sm" aria-label="main">
                     <a href="#destinations" class="hover:font-medium">Destinations</a>
                     <a href="#" class="hover:font-medium">Hotels</a>
                     <a href="#" class="hover:font-medium">Flights</a>
-                    <a href="#" class="hover:font-medium">Bookings</a>
-                    <button><a href="#hero" class="hover:font-medium border border-solid">Login</a></button>
-                    <button><a href="#hero" class="hover:font-medium border">Sign Up</a></button>
+                    <a href="#bookings" class="hover:font-medium">Bookings</a>
+                    <a href="#" class="font-thin hover:font-medium font-serif">Login</a>
+                    <a href="#" class="hover:font-medium rounded border border-stone-950 py-1 px-2">Sign Up</a>
 
 
                 </nav>
             </div>
 
         </section>
-        <section id="mobile-menu" class="absolute top-0 bg-transparent text-black w-full text-5xl flex-col justify-content-center origin-top animate-open-menu hidden">
+        <section id="mobile-menu"
+            class="absolute top-0 backdrop-blur-xl  text-black w-full text-5xl flex-col justify-content-center origin-top animate-open-menu hidden">
             <button class="text-8xl self-end px-6">
                 &times;
             </button>
-            <nav class="flex flex-col min-h-screen items-center py-8" aria-label="mobile">
-                <a href="3hero" class="w-full text-center py-6 hover:font-medium">Destinations</a>
-                <a href="3hero" class="w-full text-center py-6 hover:font-medium">Home</a>
-                <a href="3hero" class="w-full text-center py-6 hover:font-medium"></a>
-                <a href="3hero" class="w-full text-center py-6 hover:font-medium"></a>
-                <a href="#hero" class="w-full text-center py-6 hover:font-medium"></a>
+            <nav class="flex flex-col min-h-screen items-center py-8 font-serif" aria-label="mobile">
+                <a href="#destinations" class="w-full text-center py-6 hover:font-medium">Destinations</a>
+                <a href="#" class="w-full text-center py-6 hover:font-medium">Hotels</a>
+                <a href="#" class="w-full text-center py-6 hover:font-medium">Flights</a>
+                <a href="#bookings" class="w-full text-center py-6 hover:font-medium">Bookings</a>
+                <a href="#" class="w-full text-center py-6 hover:font-medium">Login</a>
+                <a href="#" class="w-full text-center py-6 hover:font-medium">Sign Up</a>
             </nav>
         </section>
     </header>
     <main class="max-w-4xl mx-auto">
         <section id="hero" class="flex flex-col-reverse justify-center sm:flex-row p-6 items-center gap-8 mb-12">
             <article class="sm:w-1/2">
-                <h2 class="text-left text-4xl">BEST DESTINATIONS AROUND THE WORLD</h2>
-                <P class="max-w-md text-2xl mt-4 text-left sm:text-center">Travel, enjoy
+                <h2 class="text-sm font-bold text-red-500 sm:text-center">BEST DESTINATIONS AROUND THE WORLD</h2>
+                <h1 class="max-w-md text-4xl font-serif font-bold text-sky-950 mt-4 text-left sm:text-center">Travel,
+                    enjoy
                     and live a new
-                    and full life</P>
-                <p>Built Wicket longer admire do barton vanity itself do in it.
+                    and full life</h1>
+                <p class="text-sm  text-blue-900 font-semibold text-left mt-10">Built Wicket longer admire do barton
+                    vanity itself do in it.
                     Preferred to sportsmen it engrossed listening.
                     Park gate sell they west hard for the.</p>
-                <p><img src="img/CTA.png" alt="Find Out More"></p>
-                <p><img src="img/Play Demo.png" alt="Play Demo"></p>
+                <div class="flex flex-row mt-10">
+                    <a href=""><img src="img/CTA.png" alt="Find Out More"></a>
+                    <a href=""><img src="img/Play Demo.png" alt="Play Demo"></a>
+                </div>
             </article>
             <div class="flex-col">
                 <img src="img/Traveller 1.png" alt="Hero">
@@ -62,32 +68,32 @@
         </section>
         <section id="category" class="p-6 my-12">
             <div class="text-center mb-6">
-                <p>CATEGORY</p>
-                <h1>We Offer Best Services</h1>
+                <p class="text-sm font-semibold text-blue-900">CATEGORY</p>
+                <h1 class="text-3xl font-serif font-bold text-sky-950">We Offer Best Services</h1>
             </div>
             <ul class="list-none mx-auto my-12 flex flex-col sm:flex-row items-center gap-8">
                 <li class="flex flex-col items-center">
-                    <img src="img/Group 48.png" alt="Traveller 2">
-                    <p>Calculated Weather</p>
+                    <img src="img/Group 48.png" alt="">
+                    <p class="p-5">Calculated Weather</p>
                     <p>Built Wicket longer admire do barton vanity itself do in it.</p>
                 </li>
                 <li class="flex flex-col items-center">
-                    <img src="img/Group 51.png" alt="Traveller 3">
-                    <p>Best Flights</p>
+                    <img src="img/Group 51.png" alt="">
+                    <p class="p-2">Best Flights</p>
                     <p>
                         Engrossed listening. Park gate sell they west hard for the.
                     </p>
                 </li>
                 <li class="flex flex-col items-center ">
-                    <img src="img/Group 50.png" alt="Traveller 4">
-                    <p>Local Events</p>
+                    <img src="img/Group 50.png" alt="">
+                    <p class="p-5">Local Events</p>
                     <p>
                         Barton vanity itself do in it. Preferd to men it engrossed listening.
                     </p>
                 </li>
                 <li class="flex flex-col items-center ">
-                    <img src="img/Group 49.png" alt="Traveller 5">
-                    <p>Customization</p>
+                    <img src="img/Group 49.png" alt="">
+                    <p class="p-5">Customization</p>
                     <p>
                         We deliver outsourced
                         aviation services for
@@ -98,35 +104,29 @@
         </section>
         <section id="destinations">
             <div class="sm:text-center">
-                <p>
+                <p class="text-sm font-semibold text-blue-900">
                     Top Selling
                 </p>
-                <h1>Top Destinations</h1>
+                <h1 class="text-3xl font-serif font-bold text-sky-950">Top Destinations</h1>
             </div>
             <ul class="list-none mx-auto my-12 flex flex-col sm:flex-row items-center gap-8">
                 <li class="flex flex-col items-center ">
                     <img src="img/Rectangle 14-1.png" alt="Rome, Italy">
-                    <p>
-                        Barton vanity itself do in it. Preferd to men it engrossed listening.
-                    </p>
+
                 </li>
                 <li class="flex flex-col items-center ">
                     <img src="img/Rectangle 14.jpg" alt="Traveller 7">
-                    <p>
-                        Barton vanity itself do in it. Preferd to men it engrossed listening.
-                    </p>
+
                 </li>
                 <li class="flex flex-col items-center ">
                     <img src="img/Rectangle 14.png" alt="Traveller 8">
-                    <p>
-                        Barton vanity itself do in it. Preferd to men it engrossed listening.
-                    </p>
+
                 </li>
             </ul>
         </section>
-        <section id="booking">
-            <h2>Book Your Next Trip In 3 Easy Steps</h2>
-            <div class="flex">
+        <section id="bookings">
+            <h2 class="text-3xl font-serif font-bold text-sky-950">Book Your Next Trip In 3 Easy Steps</h2>
+            <div class=" flex">
                 <div>
                     <img src="img/Group 52.png" alt="Group 52">
                     <p>Choose Destination</p>
@@ -140,11 +140,12 @@
                     <p>Reach Airport on Selected Date</p>
                 </div>
 
-            </div>
-            <div class="flex-col">
-                <img class="rounded-3xl" src="img/Rectangle 17.jpg" alt="Greece">
-                <p>Trip To Greece</p>
-            </div>
+                </div>
+                <div class="flex-col">
+                    <img class="rounded-3xl" src="img/Rectangle 17.jpg" alt="Greece">
+                    <p>Trip To Greece</p>
+                </div>
+        
         </section>
         <section id="testimonials" class="p-6 my-12">
             <p>TESTIMONIALS</p>
@@ -153,8 +154,8 @@
             </h2>
             <figure class="my-12">
                 <blockquote class="pr-8-py-12 rounded-3xl relative">
-                    <p class="text-2xl sm:text-3xl text-left mt-2 text-white  before:content-">
-                        "Blabla"</p>
+                    <p class="text-2xl sm:text-3xl text-left mt-2 before:content-">
+                        "Lorem"</p>
                 </blockquote>
             </figure>
             <ul class="list-none mx-auto my-12 flex flex-col sm:flex-row items-center gap-8">
@@ -176,33 +177,55 @@
             </ul>
         </section>
         <section id="newsletter" class="p-6 my-12">
-            <h2 class="text-4xl fontbold sm:text-5xl mb-6 sm:text-center">Subscribe to get information, latest news and
+            <h2 class="text-sm font-bold mb-6 sm:text-center">Subscribe to get information, latest news and
                 other
                 interesting offers about Cobham
             </h2>
-            <form action="" class="max-w-4xl mx-auto text-2xl sm:text-3xl flex flex-col items-left gap-4">
-                <label for="subject">Subject:</label>
-                <input type="text" id="subject" name="subject" placeholder="Subject" />
+            <form action="" class="max-w-4xl mx-auto text-2xl sm:text-3xl flex flex-row items-left gap-4">
+                <input type="email" id="email" name="email" placeholder="Your email" />
                 <button
-                    class="bg-teal-700 hover:bg-slate-500 active:bg-slate-600 text-white p-3 w-48 rounded-xl border border-solid border-slate-900 ">Subscribe</button>
+                    class="bg-red-400 hover:bg-red-700 active:bg-slate-600 text-white p-3 w-48 rounded-xl ">Subscribe</button>
             </form>
         </section>
     </main>
-    <footer id="footer" class="bg-teal-700 text-white text-xl">
-        <section class="max-w-4xl mx-auto p-4 flex flex-col sm:flex-row sm:justify-between">
-            <address>
-                <h1>Jadoo.</h1>
-            </address>
-            <nav class="hidden md:flex flex-col gap-2" arial-label="footer">
-                <a href="" class="hover:">Company</a>
-                <a href="" class="hover:">Company</a>
-                <a href="" class="hover:">CContact</a>
-                <a href="" class="hover:">More</a>
-            </nav>
+    <footer id="footer" class=" text-xl">
+        <section class="max-w-4xl mx-auto p-4 flex flex-col sm:flex-row sm:justify-between" arial-label="footer">
             <div class="flex flex-col sm:gap-2">
-                <p>Copyrightt &copy; <span id="year">2024</span></p>
+                <h1 class="text-3xl font-semibold">Jadoo.</h1>
+                <p class="text-sm mt-5">Book your trip in minute, get full
+                    Control for much longer.
+                    </p>
+                </div>
+            <div>
+                <p class="text-sm font-bold">Company</p>
+            <nav class="md:flex flex-col gap-2 text-sm mt-5">
+                <a href="" class="hover:">About</a>
+                <a href="" class="hover:">Careers</a>
+                <a href="" class="hover:">Mobile</a>
+            </nav>
+            </div>
+            <div class="flex flex-col sm:gap-2">
+                <p class="text-sm font-bold">Contact</p>
+                <nav class="md:flex flex-col gap-2 text-sm mt-5">
+                    <a href="" class="hover:">Help/FAQ</a>
+                    <a href="" class="hover:">Press</a>
+                    <a href="" class="hover:">Affilates</a>
+                </nav>
+            </div>
+            <div class="flex flex-col sm:gap-2">
+                <p class="text-sm font-bold">More</p>
+                <nav class="md:flex flex-col gap-2 text-sm mt-5">
+                    <a href="" class="hover:">Airlinefees</a>
+                    <a href="" class="hover:">Airline</a>
+                    <a href="" class="hover:">Low fare tips</a>
+                </nav>
+            </div>
+            <div>
+<img src="img/Social-1.png" alt="">
+
             </div>
         </section>
+        <p class="text-sm text-center mt-5">All rights reserved@jadoo.co</p>
     </footer>
 </body>
 
